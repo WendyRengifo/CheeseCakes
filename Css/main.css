@@ -1,0 +1,1206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Black:#000000;
+    --cielo:#cd2653;
+    --claro:#f5efe0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--claro);
+}
+
+/*? codigo primer contenedor se crean los estilos del titulo proncipal y el texto principal con la imganen principal*/
+
+main .main_primer-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--Black);
+}
+/*? Se crean los estilos del primer texto*/
+main .main_primer-container .primer-container__textp{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--claro);
+}
+/*? Se crean los estilos del segundo contendedor que va dentro del primer contenedor*/
+main .main_primer-container .primer-container-conten{
+    width: 90%;
+    height: auto;
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 1fr;
+}
+
+/*? Se crean los estilos de la primera imagen*/
+main .main_primer-container .primer-container-conten .primer-container__imgp{
+    width: 100%;
+    height: 275px;
+    margin-top: 80px;
+    background-image: url("/Img/MOCKUPS/CHEESCAKES.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*? Se crean los estilos del contenedor que lleva el segundo texto*/
+
+main .main_primer-container .primer-container-conten .container-conten-texts{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: var(--claro);
+    text-align: center;
+}
+
+main .main_primer-container .primer-container-conten .container-conten-texts h2{
+    font-size: 1.8rem;
+}
+
+main .main_primer-container .primer-container-conten .container-conten-texts p{
+    font-size: 1.5rem;
+}
+
+main .main_primer-container .primer-container-conten .container-conten-texts p:nth-child(2){
+    margin-top: 20px;
+}
+
+/*? Se crean los estilos del segundo contenedor*/
+
+main .main_segundo-container{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    color: var(--claro);
+    background-color: var(--cielo);
+}
+
+/*? Se crean los estilos del text del segundo contenedor*/
+main .main_segundo-container .segundo-container__text1{
+    width: 100%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
+    margin-top: 10px;
+    text-align: center;
+}
+main .main_segundo-container .segundo-container__text2{
+    width: 100%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
+    text-align: center;
+}
+
+/*? Se crean los estilos del tercer contenedor*/
+main .main_tercer-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--claro);
+}
+main .main_tercer-container .tercer-container-contenedor{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+/*? Se crean los estilos del contenedor del texto y los texto*/
+
+main .main_tercer-container .tercer-container__text{
+    width: 90%;
+    margin-top: 20px;
+    height: auto;
+}
+
+
+main .main_tercer-container .tercer-container__text .container__text-text1{
+    width: 100%;
+    height: auto;
+    color: var(--cielo);
+}
+main .main_tercer-container .tercer-container__text .container__text-text2{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*? Se crean los estilos del contener que contiene la caja*/
+
+main .main_tercer-container .tercer-container-contenedor .container-contenedor-cont{
+    width: 90%;
+    height: 600px;
+    background-image: url("/Img/MOCKUPS/CHEESCAKES1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*? Se crean los estilos del cuarto contenedor*/
+
+main .main_cuarto-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    background-color: var(--claro);
+
+}
+
+main .main_cuarto-container .cuarto-container-contenedor{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+}
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-img{
+    width: 100%;
+    height: 600px;
+    background-image: url("/Img/MOCKUPS/BONOS/MUFFINS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-text1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.0rem;
+    color: var(--cielo);
+}
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-text2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*? Se crean los estilos del Quinto contenedor*/
+
+main .main_quinto-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_quinto-container .quinto-container-title{
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--cielo);
+}
+
+main .main_quinto-container .quinto-container-img{
+    width: 90%;
+    height: auto;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img1{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img1 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img2{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img2 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img3{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+main .main_quinto-container .quinto-container-img .quinto-container-img3 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img4{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img4 img{
+    width: 100%;
+}
+
+/*? Se crean los estilos del sexto contenedor*/
+main .main_sexto-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_sexto-container .sexto-container-texts{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+}
+
+main .main_sexto-container .sexto-container-texts .sexto-container-text1{
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--cielo);
+}
+
+main .main_sexto-container .sexto-container-texts .sexto-container-text2{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .main_sexto-container .sexto-container-img{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+}
+main .main_sexto-container .sexto-container-img img{
+    width: 100%;
+}
+
+/*? Se crean los estilos del septimo contenedor*/
+main .main_septimo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_septimo-container .septimo-container-productor{
+    width: 90%;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+main .main_septimo-container .septimo-container-productor img{
+    width: 100%;
+}
+
+main .main_septimo-container .septimo-container-texts{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+main .main_septimo-container .septimo-container-texts .septimo-container-text1{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--cielo);
+}
+
+main .main_septimo-container .septimo-container-texts .septimo-container-text2{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--Black);
+}
+
+main .main_octavo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_octavo-container .octavo-container-title{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--cielo);
+}
+
+main .main_octavo-container .octavo-container-bonoOne{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px rgb(100, 100, 100);
+    background-color: rgba(54, 54, 54, 0.096);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .linea{
+    width: 150px;
+    height: 5px;
+    margin-top: 20px;
+    background-color: var(--cielo);
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .bonoOne-texts-text{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .bonoOne-texts-text h2{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .bonoOne-texts-text p{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+main .main_octavo-container .container-botonOne-img{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Img/MOCKUPS/BONOS/PALETAS.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .main_octavo-container .container-botonOne-img2{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Img/MOCKUPS/BONOS/KOOKIE.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .main_octavo-container .container-botonOne-img3{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Img/MOCKUPS/BONOS/MUFFINS.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .main_octavo-container .container-botonOne-img4{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Img/MOCKUPS/BONOS/MERMELADAS.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .main_octavo-container .container-botonOne-img5{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Img/MOCKUPS/BONOS/FOTOGRAFÍA.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .main_noveno-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_noveno-container .noveno-container-valor{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+}
+
+main .main_noveno-container .noveno-container-price{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+main .main_noveno-container .noveno-container-price h2{
+    font-size: 2.5rem;
+    color: var(--cielo);
+}
+
+main .main_noveno-container .noveno-container-price p{
+    font-size: 2.7rem;
+    color: var(--cielo);
+}
+
+main .main_noveno-container .noveno-container-price h3{
+    font-size: 6rem;
+    color: var(--cielo);
+}
+
+
+main .main_noveno-container .noveno-container-pago{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+}
+
+main .main_noveno-container .noveno-container-pago .noveno-container-boton{
+    width: 90%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+}
+
+main .main_noveno-container .noveno-container-pago .noveno-container-boton .container-boton{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 10px double var(--Black);
+    text-align: center;
+    transition: all 500ms;
+    background-color: var(--cielo);
+}
+
+main .main_noveno-container .noveno-container-pago .noveno-container-boton .container-boton h2{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: var(--claro);
+}
+
+main .main_noveno-container .noveno-container-pago .noveno-container-boton .container-boton:hover{
+    box-shadow: 0px 0px 15px var(--Black) inset;
+}
+
+
+main .main_noveno-container .noveno-container-pago .container-pago-metodos{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    background-image: url("/Img/metodos.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_decimo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_decimo-container .decimo-container-title{
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--cielo);
+}
+
+main .main_decimo-container .decimo-container-testimonio{
+    width: 90%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+main .main_decimo-container .decimo-container-testimonio .container-testimonio-img1{
+    width: 100%;
+    height: 600px;
+    background-image: url("/Img/Testimonios/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_decimo-container .decimo-container-testimonio .container-testimonio-img2{
+    width: 100%;
+    height: 600px;
+    background-image: url("/Img/Testimonios/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_decimo-container .decimo-container-testimonio .container-testimonio-img3{
+    width: 100%;
+    height: 600px;
+    background-image: url("/Img/Testimonios/3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_decimo-container .decimo-container-testimonio .container-testimonio-img4{
+    width: 100%;
+    height: 600px;
+    background-image: url("/Img/Testimonios/4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_onceavo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+   background-color: var(--claro);
+}
+
+main .main_onceavo-container .onceavo-contiainer-cetificado{
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+}
+
+main .main_onceavo-container .onceavo-contiainer-cetificado h2{
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--cielo);
+}
+
+main .main_onceavo-container .onceavo-contiainer-cetificado .container-cetificado-img{
+    width: 100%;
+    height: 250px;
+    background-image: url("/Img/CERTIFICADO/Certificado-MOCKUP.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main .main_onceavo-container .onceavo-container-regalo{
+    width: 90%;
+    height: auto;
+    display: grid;
+    margin-top: 50px;
+}
+
+main .main_onceavo-container .onceavo-container-regalo h2{
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--cielo);
+}
+
+main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
+    width: 100%;
+    height: 200px;
+    background-image: url("/Img/MOCKUPS/ofertaCompleta.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (min-width: 1280px){
+/*? codigo primer contenedor se crean los estilos del titulo proncipal y el texto principal con la imganen principal*/
+   main .main_primer-container .primer-container-conten{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+}
+
+/*? Se crean los estilos de la primera imagen*/
+main .main_primer-container .primer-container-conten .primer-container__imgp{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    background-image: url("/Img/MOCKUPS/CHEESCAKES.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*? Se crean los estilos del contenedor que lleva el segundo texto*/
+
+main .main_primer-container .primer-container-conten .container-conten-texts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    color: var(--claro);
+    text-align: center;
+}
+
+/*? Se crean los estilos del text del segundo contenedor*/
+main .main_segundo-container .segundo-container__text1{
+    width: 100%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+main .main_segundo-container .segundo-container__text2{
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
+    text-align: center;
+}
+
+main .main_tercer-container .tercer-container-contenedor{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+/*? Se crean los estilos del cuarto contenedor*/
+main .main_cuarto-container .cuarto-container-contenedor{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+}
+
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-text1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.0rem;
+    color: var(--cielo);
+}
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-text2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*? Se crean los estilos del quinto contenedor*/
+main .main_quinto-container .quinto-container-img{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2em;
+    justify-content: center;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img1{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img1 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img2{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img2 img{
+    width: 100%;
+}
+
+
+main .main_quinto-container .quinto-container-img .quinto-container-img3{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img3 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img4{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img4 img{
+    width: 100%;
+}
+
+/*? Se crean los estilos del sexto contenedor*/
+main .main_sexto-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+main .main_sexto-container .sexto-container-img{
+    width: 90%;
+    height: auto;
+    display: grid;
+    align-items: center;
+}
+/*? Se crean los estilos del septimo contenedor*/
+
+main .main_septimo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+main .main_septimo-container .septimo-container-productor{
+    width: 50%;
+    height: 500px;
+    margin-top: 90px;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+main .main_septimo-container .septimo-container-texts{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+main .main_octavo-container .octavo-container-bonoOne{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .linea{
+    width: 150px;
+    height: 5px;
+    background-color: var(--cielo);
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .bonoOne-texts-text{
+    width: 100%;
+    height: auto;
+}
+main .main_noveno-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_decimo-container .decimo-container-testimonio{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+main .main_onceavo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+   background-color: var(--claro);
+}
+
+main .main_onceavo-container .onceavo-contiainer-cetificado .container-cetificado-img{
+    width: 100%;
+    height: 400px;
+    background-image: url("/Img/CERTIFICADO/Certificado-MOCKUP.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
+    width: 100%;
+    height: 400px;
+    background-image: url("/Img/MOCKUPS/ofertaCompleta.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+}
+
+
+/*?MEDIA QUERYS TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+   /*? codigo primer contenedor se crean los estilos del titulo proncipal y el texto principal con la imganen principal*/
+   main .main_primer-container .primer-container-conten{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+}
+
+/*? Se crean los estilos de la primera imagen*/
+main .main_primer-container .primer-container-conten .primer-container__imgp{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    background-image: url("/Img/MOCKUPS/CHEESCAKES.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*? Se crean los estilos del contenedor que lleva el segundo texto*/
+
+main .main_primer-container .primer-container-conten .container-conten-texts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    color: var(--claro);
+    text-align: center;
+}
+
+/*? Se crean los estilos del text del segundo contenedor*/
+main .main_segundo-container .segundo-container__text1{
+    width: 100%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+main .main_segundo-container .segundo-container__text2{
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
+    text-align: center;
+}
+
+main .main_tercer-container .tercer-container-contenedor{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+/*? Se crean los estilos del curato contenedor*/
+
+main .main_cuarto-container .cuarto-container-contenedor{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+}
+
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-text1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.0rem;
+    color: var(--cielo);
+}
+
+main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-text2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*? Se crean los estilos del quinto contenedor*/
+main .main_quinto-container .quinto-container-img{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2em;
+    justify-content: center;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img1{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img1 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img2{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img2 img{
+    width: 100%;
+}
+
+
+main .main_quinto-container .quinto-container-img .quinto-container-img3{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img3 img{
+    width: 100%;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img4{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+}
+
+main .main_quinto-container .quinto-container-img .quinto-container-img4 img{
+    width: 100%;
+}
+
+/*? Se crean los estilos del sexto contenedor*/
+main .main_sexto-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+main .main_sexto-container .sexto-container-img{
+    width: 90%;
+    height: auto;
+    display: grid;
+    align-items: center;
+}
+
+/*? Se crean los estilos del septimo contenedor*/
+
+main .main_septimo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+main .main_septimo-container .septimo-container-productor{
+    width: 50%;
+    height: 500px;
+    margin-top: 90px;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+main .main_septimo-container .septimo-container-texts{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+main .main_octavo-container .octavo-container-bonoOne{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .linea{
+    width: 150px;
+    height: 5px;
+    background-color: var(--cielo);
+}
+
+main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .bonoOne-texts-text{
+    width: 100%;
+    height: auto;
+}
+
+main .main_noveno-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--claro);
+}
+
+main .main_decimo-container .decimo-container-testimonio{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+main .main_onceavo-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    overflow: hidden;
+   background-color: var(--claro);
+}
+
+main .main_onceavo-container .onceavo-contiainer-cetificado .container-cetificado-img{
+    width: 100%;
+    height: 400px;
+    background-image: url("/Img/CERTIFICADO/Certificado-MOCKUP.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
+    width: 100%;
+    height: 400px;
+    background-image: url("/Img/MOCKUPS/ofertaCompleta.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+}
