@@ -32,7 +32,7 @@ main .main_primer-container .primer-container__textp{
     height: auto;
     margin-top: 30px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: var(--claro);
 }
 /*? Se crean los estilos del segundo contendedor que va dentro del primer contenedor*/
@@ -672,6 +672,8 @@ main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 @media screen and (min-width: 1280px){
 /*? codigo primer contenedor se crean los estilos del titulo proncipal y el texto principal con la imganen principal*/
    main .main_primer-container .primer-container-conten{
@@ -681,6 +683,16 @@ main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     overflow: hidden;
+}
+
+/*? Se crean los estilos del primer texto*/
+main .main_primer-container .primer-container__textp{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--claro);
 }
 
 /*? Se crean los estilos de la primera imagen*/
@@ -706,18 +718,31 @@ main .main_primer-container .primer-container-conten .container-conten-texts{
     text-align: center;
 }
 
+/*? Se crean los estilos del segundo contenedor*/
+
+main .main_segundo-container{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    color: var(--claro);
+    background-color: var(--cielo);
+}
+
 /*? Se crean los estilos del text del segundo contenedor*/
 main .main_segundo-container .segundo-container__text1{
     width: 100%;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
     margin-top: 10px;
-    font-size: 1.8rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
 }
 main .main_segundo-container .segundo-container__text2{
     width: 100%;
     font-weight: bold;
+    font-size: 1.8rem;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
     text-align: center;
 }
@@ -730,6 +755,11 @@ main .main_tercer-container .tercer-container-contenedor{
     justify-items: center;
     align-items: center;
 }
+
+main .main_tercer-container .tercer-container-contenedor .tercer-container__text .container__text-text1{
+    font-size: 1.8rem;
+}
+
 /*? Se crean los estilos del cuarto contenedor*/
 main .main_cuarto-container .cuarto-container-contenedor{
     width: 90%;
@@ -746,7 +776,7 @@ main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-t
     height: auto;
     margin-top: 20px;
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 1.8rem;
     color: var(--cielo);
 }
 
@@ -948,6 +978,16 @@ main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
     overflow: hidden;
 }
 
+/*? Se crean los estilos del primer texto*/
+main .main_primer-container .primer-container__textp{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--claro);
+}
+
 /*? Se crean los estilos de la primera imagen*/
 main .main_primer-container .primer-container-conten .primer-container__imgp{
     width: 100%;
@@ -971,18 +1011,32 @@ main .main_primer-container .primer-container-conten .container-conten-texts{
     text-align: center;
 }
 
+
+/*? Se crean los estilos del segundo contenedor*/
+
+main .main_segundo-container{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    color: var(--claro);
+    background-color: var(--cielo);
+}
+
 /*? Se crean los estilos del text del segundo contenedor*/
 main .main_segundo-container .segundo-container__text1{
     width: 100%;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
     margin-top: 10px;
-    font-size: 1.8rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
 }
 main .main_segundo-container .segundo-container__text2{
     width: 100%;
     font-weight: bold;
+    font-size: 1.8rem;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.84);
     text-align: center;
 }
@@ -994,6 +1048,10 @@ main .main_tercer-container .tercer-container-contenedor{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+
+main .main_tercer-container .tercer-container-contenedor .tercer-container__text .container__text-text1{
+    font-size: 1.8rem;
 }
 
 /*? Se crean los estilos del curato contenedor*/
@@ -1013,7 +1071,7 @@ main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-t
     height: auto;
     margin-top: 20px;
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 1.8rem;
     color: var(--cielo);
 }
 
