@@ -114,6 +114,12 @@
     }
     
     /*? Se crean los estilos del quinto contenedor*/
+
+    main .main_quinto-container .quinto-container-title{
+        font-size: 1.9rem;
+    }
+
+
     main .main_quinto-container .quinto-container-img{
         width: 90%;
         height: auto;
@@ -219,6 +225,25 @@
         justify-items: center;
         align-items: center;
     }
+
+    main .main_septimo-container .septimo-container-texts .septimo-container-text2{
+        width: 90%;
+        height: auto;
+        margin-top: -110px;
+        text-align: center;
+        font-size: 1.4rem;
+        color: var(--Black);
+    }
+
+
+    main .main_octavo-container .octavo-container-title{
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: var(--cielo);
+    }
     
     main .main_octavo-container .octavo-container-bonoOne{
         width: 90%;
@@ -259,6 +284,15 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-items: center;
     }
+
+    main .main_decimo-container .decimo-container-title{
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--cielo);
+    }
     main .main_onceavo-container{
         width: 100%;
         height: auto;
@@ -267,6 +301,18 @@
         justify-items: center;
         overflow: hidden;
        background-color: var(--claro);
+    }
+
+    main .main_onceavo-container .onceavo-contiainer-cetificado h2{
+        text-align: center;
+        font-size: 2.2rem;
+        color: var(--cielo);
+    }
+
+    main .main_onceavo-container .onceavo-container-regalo h2{
+        text-align: center;
+        font-size: 2.2rem;
+        color: var(--cielo);
     }
     
     main .main_onceavo-container .onceavo-contiainer-cetificado .container-cetificado-img{
