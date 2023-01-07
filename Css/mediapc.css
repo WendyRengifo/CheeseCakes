@@ -24,7 +24,7 @@
         width: 100%;
         height: 400px;
         margin-top: 80px;
-        background-image: url("/Img/MOCKUPS/CHEESCAKES.png");
+        background-image: url("../Img/MOCKUPS/CHEESCAKES.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -318,7 +318,7 @@
     main .main_onceavo-container .onceavo-contiainer-cetificado .container-cetificado-img{
         width: 100%;
         height: 400px;
-        background-image: url("/Img/CERTIFICADO/Certificado-MOCKUP.png");
+        background-image: url("../Img/CERTIFICADO/Certificado-MOCKUP.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -327,7 +327,7 @@
     main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
         width: 100%;
         height: 400px;
-        background-image: url("/Img/MOCKUPS/ofertaCompleta.png");
+        background-image: url("../Img/MOCKUPS/ofertaCompleta.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;

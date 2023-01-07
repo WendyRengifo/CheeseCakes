@@ -50,7 +50,7 @@ main .main_primer-container .primer-container-conten .primer-container__imgp{
     width: 100%;
     height: 275px;
     margin-top: 80px;
-    background-image: url("./Img/MOCKUPS/CHEESCAKES.png");
+    background-image: url("../Img/MOCKUPS/CHEESCAKES.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -145,7 +145,7 @@ main .main_tercer-container .tercer-container__text .container__text-text2{
 main .main_tercer-container .tercer-container-contenedor .container-contenedor-cont{
     width: 90%;
     height: 600px;
-    background-image: url("/Img/MOCKUPS/CHEESCAKES1.png");
+    background-image: url("../Img/MOCKUPS/CHEESCAKES1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -172,7 +172,7 @@ main .main_cuarto-container .cuarto-container-contenedor{
 main .main_cuarto-container .cuarto-container-contenedor .container-contenedor-img{
     width: 100%;
     height: 600px;
-    background-image: url("/Img/MOCKUPS/BONOS/MUFFINS.png");
+    background-image: url("../Img/MOCKUPS/BONOS/MUFFINS.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -430,7 +430,7 @@ main .main_octavo-container .octavo-container-bonoOne .container-bonoOne-texts .
 main .main_octavo-container .container-botonOne-img{
     width: 100%;
     height: 500px;
-    background-image: url("/Img/MOCKUPS/BONOS/PALETAS.png");
+    background-image: url("../Img/MOCKUPS/BONOS/PALETAS.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -439,7 +439,7 @@ main .main_octavo-container .container-botonOne-img{
 main .main_octavo-container .container-botonOne-img2{
     width: 100%;
     height: 500px;
-    background-image: url("/Img/MOCKUPS/BONOS/KOOKIE.png");
+    background-image: url("../Img/MOCKUPS/BONOS/KOOKIE.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -448,7 +448,7 @@ main .main_octavo-container .container-botonOne-img2{
 main .main_octavo-container .container-botonOne-img3{
     width: 100%;
     height: 500px;
-    background-image: url("/Img/MOCKUPS/BONOS/MUFFINS.png");
+    background-image: url("../Img/MOCKUPS/BONOS/MUFFINS.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -457,7 +457,7 @@ main .main_octavo-container .container-botonOne-img3{
 main .main_octavo-container .container-botonOne-img4{
     width: 100%;
     height: 500px;
-    background-image: url("/Img/MOCKUPS/BONOS/MERMELADAS.png");
+    background-image: url("../Img/MOCKUPS/BONOS/MERMELADAS.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -466,7 +466,7 @@ main .main_octavo-container .container-botonOne-img4{
 main .main_octavo-container .container-botonOne-img5{
     width: 100%;
     height: 500px;
-    background-image: url("/Img/MOCKUPS/BONOS/FOTOGRAFÍA.png");
+    background-image: url("../Img/MOCKUPS/BONOS/FOTOGRAFÍA.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -553,7 +553,7 @@ main .main_noveno-container .noveno-container-pago .container-pago-metodos{
     width: 100%;
     height: 150px;
     margin-top: 20px;
-    background-image: url("/Img/metodos.png");
+    background-image: url("../Img/metodos.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -588,7 +588,7 @@ main .main_decimo-container .decimo-container-testimonio{
 main .main_decimo-container .decimo-container-testimonio .container-testimonio-img1{
     width: 100%;
     height: 600px;
-    background-image: url("/Img/Testimonios/1.png");
+    background-image: url("../Img/Testimonios/1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -597,7 +597,7 @@ main .main_decimo-container .decimo-container-testimonio .container-testimonio-i
 main .main_decimo-container .decimo-container-testimonio .container-testimonio-img2{
     width: 100%;
     height: 600px;
-    background-image: url("/Img/Testimonios/2.png");
+    background-image: url("../Img/Testimonios/2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -606,7 +606,7 @@ main .main_decimo-container .decimo-container-testimonio .container-testimonio-i
 main .main_decimo-container .decimo-container-testimonio .container-testimonio-img3{
     width: 100%;
     height: 600px;
-    background-image: url("/Img/Testimonios/3.png");
+    background-image: url("../Img/Testimonios/3.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -615,7 +615,7 @@ main .main_decimo-container .decimo-container-testimonio .container-testimonio-i
 main .main_decimo-container .decimo-container-testimonio .container-testimonio-img4{
     width: 100%;
     height: 600px;
-    background-image: url("/Img/Testimonios/4.png");
+    background-image: url("../Img/Testimonios/4.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -645,7 +645,7 @@ main .main_onceavo-container .onceavo-contiainer-cetificado h2{
 main .main_onceavo-container .onceavo-contiainer-cetificado .container-cetificado-img{
     width: 100%;
     height: 250px;
-    background-image: url("/Img/CERTIFICADO/Certificado-MOCKUP.png");
+    background-image: url("../Img/CERTIFICADO/Certificado-MOCKUP.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -668,7 +668,7 @@ main .main_onceavo-container .onceavo-container-regalo h2{
 main .main_onceavo-container .onceavo-container-regalo .container-regalo-img{
     width: 100%;
     height: 200px;
-    background-image: url("/Img/MOCKUPS/ofertaCompleta.png");
+    background-image: url("../Img/MOCKUPS/ofertaCompleta.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
