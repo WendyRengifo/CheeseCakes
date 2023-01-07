@@ -50,7 +50,7 @@ main .main_primer-container .primer-container-conten .primer-container__imgp{
     width: 100%;
     height: 275px;
     margin-top: 80px;
-    background-image: url("/Img/MOCKUPS/CHEESCAKES.png");
+    background-image: url("./Img/MOCKUPS/CHEESCAKES.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
